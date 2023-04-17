@@ -17,11 +17,11 @@ This notebook shows the data cleaning proccess and documents the choices that we
 
 ## Visualizations
 
-This graph shows the overall scores that the random forest model was able to achieve for the different genres in the dataset. The reported metric is "f1-score," which is a weighted average of precision and recall. (Precision measures the fraction of true positive instances among the instances that the classifier predicted as positive, while recall measures the fraction of true positive instances among all actual positive instances in the dataset.)
+Here are precision and recall as a function of available datapoints for each genre. The random forest model is able to achieve greater precision with additional datapoints, but the relationship does not hold true for recall. There is some more discussion of this in the track_modeling notebook. (Precision measures the fraction of true positive instances among the instances that the classifier predicted as positive, while recall measures the fraction of true positive instances among all actual positive instances in the dataset.)
 
 ![image](https://user-images.githubusercontent.com/106289788/232366449-77335181-ed8d-452c-8c84-614bc763e0cf.png)
 
-Here are precision and recall as a function of available datapoints for each genre. The random forest model is able to achieve greater precision with additional datapoints, but the relationship does not hold true for recall. There is some more discussion of this in the track_modeling notebook.
+This graph shows the overall scores that the random forest model was able to achieve for the different genres in the dataset. The reported metric is "f1-score," which is a weighted average of precision and recall. 
 
 ![image](https://user-images.githubusercontent.com/106289788/232366908-a4a57953-70d1-4c12-90ee-1adb069c1dac.png)
 
