@@ -17,20 +17,23 @@ This notebook shows the data cleaning proccess and documents the choices that we
 
 ## Visualizations
 
-Here are precision and recall as a function of available datapoints for each genre. The random forest model is able to achieve greater precision with additional datapoints, but the relationship does not hold true for recall. There is some more discussion of this in the track_modeling notebook. (Precision measures the fraction of true positive instances among the instances that the classifier predicted as positive, while recall measures the fraction of true positive instances among all actual positive instances in the dataset.)
+This graph shows the distribution of the different audio features provided by Spotify.
 
-![image](https://user-images.githubusercontent.com/106289788/232366449-77335181-ed8d-452c-8c84-614bc763e0cf.png)
+![image](https://user-images.githubusercontent.com/106289788/232368575-364cb034-f096-46f8-b049-3ff6009f2f3a.png)
 
-This graph shows the overall scores that the random forest model was able to achieve for the different genres in the dataset. The reported metric is "f1-score," which is a weighted average of precision and recall. 
+
+This graph shows the overall scores that the random forest model was able to achieve for the different genres in the dataset. The reported metric is "f1-score," which is a weighted average of precision and recall. (Precision measures the fraction of true positive instances among the instances that the classifier predicted as positive, while recall measures the fraction of true positive instances among all actual positive instances in the dataset.)
 
 ![image](https://user-images.githubusercontent.com/106289788/232366908-a4a57953-70d1-4c12-90ee-1adb069c1dac.png)
 
+Here are precision and recall as a function of available datapoints for each genre. The random forest model is able to achieve greater precision with additional datapoints, but the relationship does not hold true for recall. There is some more discussion of this in the track_modeling notebook. 
+
+![image](https://user-images.githubusercontent.com/106289788/232366449-77335181-ed8d-452c-8c84-614bc763e0cf.png)
+
 This Sankey flow diagram shows the runner-up classes that were predicted by the model. This graph uses a sum of predicted probabilities for each genre, which differs from precision/recall, as it rewards the model being confident when it is correct. There are graphs for a few selected genres in track_modeling; this one shows the distribution of prediction for Progressive House music.
 
-![newplot](https://user-images.githubusercontent.com/106289788/232368304-9c298e76-aa34-4ddf-81ab-e5905cc68b08.png)
+![image](https://user-images.githubusercontent.com/106289788/232369080-01aacd23-6686-4f7a-ae58-95f4aac4f5d1.png)
 
-Finally, here's the distribution of the different audio features provided by Spotify.
 
-![image](https://user-images.githubusercontent.com/106289788/232368575-364cb034-f096-46f8-b049-3ff6009f2f3a.png)
 
 
