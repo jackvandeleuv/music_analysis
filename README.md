@@ -3,7 +3,7 @@
 This is a project to see if it's possible to predict the genres of songs based on their audio characteristics. Overall, the techinques deployed were able to achieve a reasonable accuracy. The best model, Random Forest, achieved about 66% accuracy. 
 
 ## Notebooks
-- predict_genre2.ipynb
+- predict_genre_2.0.ipynb
 This is the final version with four classification models. It requires a csv file labeled audio_features_5.3_clean.csv, which is stored in the data directory. After the initial model training, a few visualizations are provided to see how the models performed and suggest directions for future modeling work.
 
 - track_modeling.ipynb
