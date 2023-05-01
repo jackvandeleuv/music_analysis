@@ -20,7 +20,7 @@ This notebook shows the data cleaning proccess and documents the choices that we
 
 ## Data files
 
-The aforementioned csv files, which can be used to run track_modeling, can be found [here](https://drive.google.com/drive/folders/1TuFB7aulLAO7h-1AaNkSyQ8URar3xeED?usp=sharing).
+The aforementioned csv files, which can be used to run predict_genres_2.0, can be found [here](https://drive.google.com/drive/folders/1TuFB7aulLAO7h-1AaNkSyQ8URar3xeED?usp=sharing).
 
 - audio_features_5.3.csv
 - audio_features_5.3_clean.csv
@@ -28,6 +28,8 @@ The aforementioned csv files, which can be used to run track_modeling, can be fo
 ## Visualizations
 
 ### Genres to predict
+
+Here are the top 10 most represented genres in our dataset. We'll be using these 10 as the classes for our prediction task.
 
 ![image](https://user-images.githubusercontent.com/106289788/235477915-4b2d7ad8-2245-40d0-be03-0db128b98ae9.png)
 
@@ -38,6 +40,8 @@ This graph shows the distribution of the different audio features provided by Sp
 ![image](https://user-images.githubusercontent.com/106289788/232368575-364cb034-f096-46f8-b049-3ff6009f2f3a.png)
 
 ### Term Frequency & Inverse Document Frequency -> Top 10 tokens by genre
+
+Note: only English stopwords were removed, on the theory that Spanish and French stopwords might provide useful information to help separate out non-Anglophone genres.
 
 ![image](https://user-images.githubusercontent.com/106289788/235477371-ecaaa1c7-d168-4c56-be10-1dddd765f92a.png)
 
